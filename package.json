@@ -1,0 +1,17 @@
+{
+  "name": "auth0-spa-module",
+  "version": "0.0.1",
+  "description": "easy auth0-spa-js integration with Nuxt.js",
+  "main": "lib/module.js",
+  "author": "corocn <crsk.plmzh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt test/fixture"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "nuxt": "2.8.1"
+  }
+}
