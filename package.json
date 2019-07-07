@@ -6,12 +6,14 @@
   "author": "corocn <crsk.plmzh@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt test/fixture"
+    "dev": "nuxt test/fixture",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.0.2"
   },
   "devDependencies": {
-    "nuxt": "2.8.1"
+    "nuxt": "2.8.1",
+    "standard-version": "latest"
   }
 }
