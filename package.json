@@ -9,6 +9,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "spa",
+    "auth",
+    "auth0"
+  ],
   "scripts": {
     "dev": "nuxt test/fixture",
     "release": "standard-version && git push --follow-tags && npm publish"
