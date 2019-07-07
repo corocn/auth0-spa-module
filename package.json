@@ -5,6 +5,10 @@
   "main": "lib/module.js",
   "author": "corocn <crsk.plmzh@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/corocn/auth0-spa-module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "nuxt test/fixture",
     "release": "standard-version && git push --follow-tags && npm publish"
