@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noImplicitThis": true,
+    "types": [
+      "@types/node",
+      "@auth0/auth0-spa-js",
+      "@nuxt/vue-app"
+    ]
+  },
+}

@@ -13,6 +13,8 @@ yarn add auth0-spa-module
 
 ## Setup
 
+add modules and auth0 setting to nuxt.config.js
+
 ```nuxt.config.js
   modules: [
     'auth0-spa-module'

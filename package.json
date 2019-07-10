@@ -24,6 +24,7 @@
     "@auth0/auth0-spa-js": "^1.0.2"
   },
   "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
     "nuxt": "2.8.1",
     "standard-version": "latest"
   }

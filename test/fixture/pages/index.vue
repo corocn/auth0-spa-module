@@ -10,8 +10,7 @@ export default {
         async login() {
             const auth0 = this.$auth0;
             await auth0.loginWithPopup();
-            const user = await auth0.getUser();
-            console.log(user);
+            console.log(await auth0.getTokenSilently());
         }
     }
 }
