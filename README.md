@@ -20,15 +20,11 @@ add modules and auth0 setting to nuxt.config.js
     'auth0-spa-module'
   ],
   auth0: {
-    domain: <YOUR_AUTH0_DOMAIN>,
-    clientId: <YOUR_AUTH0_CLIENT_ID>'
+    domain: '<YOUR_AUTH0_DOMAIN>',
+    clientId: '<YOUR_AUTH0_CLIENT_ID>',
+    audience: 'http://localhost:3000/'
   }
 ```
-
-or set environment variables.
-
- * AUTH0_DOMAIN
- * AUTH0_CLIENT_ID
 
 ## Development
 

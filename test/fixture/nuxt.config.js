@@ -10,6 +10,7 @@ module.exports = {
   ],
   auth0: {
     domain: 'corocn-auth0-spa-module.auth0.com',
-    clientId: 'cRDXsLKe4W0nX5lbLss8BP4PkDhQunFR'
+    clientId: 'cRDXsLKe4W0nX5lbLss8BP4PkDhQunFR',
+    audience: 'http://localhost:3000/'
   }
 }
