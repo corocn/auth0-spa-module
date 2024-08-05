@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@nuxt/typescript": "^2.8.1",
-    "nuxt": "2.8.1",
+    "nuxt": "3.12.4",
     "standard-version": "latest"
   }
 }
